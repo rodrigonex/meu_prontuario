@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "searchPatient",
     "datasource": {
       "name": "https://qschmjgjlqtchydjejcg.supabase.co",
       "pluginId": "restapi-plugin",
@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/rest/v1/clinic",
+      "path": "/rest/v1/patient",
       "headers": [
         {
           "key": "apikey",
@@ -28,11 +28,19 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFzY2htamdqbHF0Y2h5ZGplamNnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODE3NzQ0ODQsImV4cCI6MTk5NzM1MDQ4NH0.NKs75BNXjuKrTsJoonChIVmGJk37k6bq3ij3ZIOi-OU"
+          "value": "Bearer {{appsmith.store.access_token}}"
+        },
+        {
+          "key": "Range",
+          "value": "0-9"
         }
       ],
       "encodeParamsToggle": true,
       "queryParameters": [
+        {
+          "key": "cpf",
+          "value": "eq.{{cpfInput.text}}"
+        },
         {
           "key": "select",
           "value": "*"
@@ -42,17 +50,30 @@
       "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[1].value"
+      },
+      {
+        "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.access_token",
+      "cpfInput.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "home_Api1",
+  "id": "home_searchPatient",
   "deleted": false,
-  "gitSyncId": "646beff42ee7a12fe1deb4da_646bf3552ee7a12fe1deb4ee"
+  "gitSyncId": "646beff42ee7a12fe1deb4da_6475294b9fa86a608cf07e3f"
 }

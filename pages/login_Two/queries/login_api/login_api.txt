@@ -1,0 +1,7 @@
+
+{{
+{
+	"email": email_input.text,
+	"password": senha_input.text
+	}
+}}

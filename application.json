@@ -5,6 +5,14 @@
       "isDefault": true
     },
     {
+      "id": "id_person ",
+      "isDefault": false
+    },
+    {
+      "id": "login_Two",
+      "isDefault": false
+    },
+    {
       "id": "home",
       "isDefault": false
     }
@@ -41,7 +49,7 @@
   "color": "#CCCCCC",
   "icon": "sunflower",
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "MOBILE"

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "auth",
+    "pageId": "login_Two",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "login_Two_auth",
+  "deleted": false,
+  "gitSyncId": "646beff42ee7a12fe1deb4da_6474bc3e9fa86a608cf077b7"
+}
