@@ -6,7 +6,7 @@ export default {
 				console.log(i)
 				storeValue(i, data[i])
 			});
-		}).then(() => navigateTo('home'));	
+		}).then(() => navigateTo('busca_paciente'));	
 	},
 	continue () {
 		if(!appsmith.URL.fullPath.includes('#access_token=')) return;
@@ -14,6 +14,6 @@ export default {
 			const [key, value] = i.split('=');
 			storeValue(key, value);
 		});
-		navigateTo('home');
+		navigateTo('busca_paciente');
 	}
 }

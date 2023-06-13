@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "search",
+    "pageId": "pedido_exame",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "pedido_exame_search",
+  "deleted": false,
+  "gitSyncId": "646beff42ee7a12fe1deb4da_64768887126ea252bfe4c073"
+}

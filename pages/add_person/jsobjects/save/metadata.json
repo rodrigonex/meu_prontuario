@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "save",
+    "pageId": "add_person",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "add_person_save",
+  "deleted": false,
+  "gitSyncId": "646beff42ee7a12fe1deb4da_64886697d42fc33dc559968b"
+}

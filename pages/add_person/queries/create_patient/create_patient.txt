@@ -1,0 +1,10 @@
+{ 
+	"full_name": {{nameInput.inputText}}, 
+	"gender": {{genderSelect.selectedOptionValue}},
+	"weight": {{weightInput.text}},
+	"age": {{ageInput.text}},
+	"birthDate": {{birthDateDatePicker.selectedDate}},
+	"cpf": {{cpfInput.text}},
+	"isPcf": {{isPcdSelect.selectedOptionValue}},
+	"height": {{heightInput.text}}
+}

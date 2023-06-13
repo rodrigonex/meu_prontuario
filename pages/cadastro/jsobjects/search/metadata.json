@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "search",
+    "pageId": "cadastro",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "cadastro_search",
+  "deleted": false,
+  "gitSyncId": "646beff42ee7a12fe1deb4da_647681e3cf89e442ca6d1093"
+}

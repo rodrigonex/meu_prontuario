@@ -5,7 +5,7 @@
       "isDefault": true
     },
     {
-      "id": "id_person ",
+      "id": "id_person",
       "isDefault": false
     },
     {
@@ -13,7 +13,39 @@
       "isDefault": false
     },
     {
-      "id": "home",
+      "id": "busca_paciente",
+      "isDefault": false
+    },
+    {
+      "id": "add_person",
+      "isDefault": false
+    },
+    {
+      "id": "cadastro",
+      "isDefault": false
+    },
+    {
+      "id": "recuperar_senha_T1",
+      "isDefault": false
+    },
+    {
+      "id": "recuperar_senha_T2",
+      "isDefault": false
+    },
+    {
+      "id": "pedido_exame",
+      "isDefault": false
+    },
+    {
+      "id": "Add_Consulta",
+      "isDefault": false
+    },
+    {
+      "id": "historico_de_consultas",
+      "isDefault": false
+    },
+    {
+      "id": "Evolucao_paciente",
       "isDefault": false
     }
   ],
@@ -33,26 +65,13 @@
       "showSignIn": true
     }
   },
-  "publishedApplicationDetail": {
-    "navigationSetting": {
-      "showNavbar": false,
-      "orientation": "top",
-      "navStyle": "stacked",
-      "position": "static",
-      "itemStyle": "text",
-      "colorStyle": "theme",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
-    }
-  },
   "color": "#CCCCCC",
   "icon": "sunflower",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [
     {
@@ -65,6 +84,11 @@
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": true
+  },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
   "deleted": false

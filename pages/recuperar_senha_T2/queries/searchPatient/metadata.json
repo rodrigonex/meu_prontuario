@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "home",
+    "pageId": "recuperar_senha_T2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -73,7 +73,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "home_searchPatient",
+  "id": "recuperar_senha_T2_searchPatient",
   "deleted": false,
-  "gitSyncId": "646beff42ee7a12fe1deb4da_6475294b9fa86a608cf07e3f"
+  "gitSyncId": "646beff42ee7a12fe1deb4da_6476869f126ea252bfe4c054"
 }
